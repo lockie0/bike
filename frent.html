@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Showroom</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body{
+            background-color: gray;
+        }
+        img{
+            width: 900px;
+            height: 500px;
+            float: right;
+            position: absolute;
+            left: 250px;
+            top: 90px;
+            bottom: 80px;
+        }
+      .bike{
+        position: absolute;
+        left: 850px;
+        top: 60px;
+            bottom: 80px;
+            height: 270px;
+            width: 270px;
+            
+
+      }
+      .hunt{
+        position: absolute;
+        left: 220px;
+        top: 180px;
+            bottom: 80px;
+            height: 420px;
+            width: 420px;   
+      }
+      .navdir{
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+      }
+      .logo a{
+            font-size: 35px;
+            font-weight: 600;
+            color: black;
+            font-style: italic;
+            font-style: italic;
+      }
+      li{
+        list-style: none;
+        display: inline-block;
+      }
+      .li a{
+        
+        color: aliceblue;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 25px;
+       
+      }
+      button{
+        background-color: black;
+        margin-left: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        width: 90px;
+      }
+      p{
+        color: white;
+        font-style: italic;
+        
+      }
+      .text{
+        position: absolute;
+        right:220px;
+        top: 350px;
+        bottom: 350px;
+      }
+      .sra{
+      position:  absolute;
+        left: 850px;
+        top: 400px;
+            bottom: 400px;
+            height: 270px;
+            width: 270px;
+            
+      }
+    </style>
+</head>
+<body>
+
+<img src="black.jpg" >
+<img src="brand-removebg-preview.png" alt="Workplace" usemap="#workmap" class="bike">
+
+<map name="workmap">
+  <area shape="circle" coords="247,251,167" alt="Computer" href="view.html">
+<img src="model_-_Copy_1_-removebg-preview.png" class="hunt">
+<img src="red_bike-removebg-preview(1).png" alt="Workplace" usemap="#workmaps" class="sra">
+
+<map name="workmaps">
+  <area shape="circle" coords="131,140,113" alt="Computer" href="view.html">
+<nav class="nav">
+    <div class="navdir">
+        <div class="logo"><a href="#">BRANDGRAND</a></div>
+        <ul>
+          <button> <li><a href="frent.html">Home</a></li></button>
+          <button> <li><a href="contact.html">Contact</a></li></button>
+         
+           <button> <li><a href="view.html">View</a></li></button>
+           <button> <li><a href="register.html" target="_blank">Register</a></li></button>
+        </ul>
+    </div>
+</nav>
+<p class="text">A motorcycle is a two-wheeled vehicle with an engine.<br>
+     Motorcycles are bigger, heavier, and much faster than bicycles,<br>
+      but they have many similar parts.<br>
+      Like bicycles, motorcycles are often called bikes.<br>
+      Motorcycles are a common form of transportation throughout the world.</p>
+</body>
